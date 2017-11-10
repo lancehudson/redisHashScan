@@ -1,0 +1,24 @@
+{
+  "name": "redishashscan",
+  "version": "0.1.0",
+  "description": "Scans redis for hashes and identifies keys that match a regex and optionally deletes them.",
+  "private": true,
+  "main": "index.js",
+  "bin": {
+    "redisHashScan": "./index.js"
+  },
+  "author": "Lance Hudson <lance@lancehudson.com> (http://lancehudson.com/)",
+  "license": "Unlicense",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "ioredis": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancehudson/redisHashScan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lancehudson/redisHashScan/issues"
+  },
+  "homepage": "https://github.com/lancehudson/redisHashScan#readme"
+}
