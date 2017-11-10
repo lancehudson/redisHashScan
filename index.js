@@ -7,6 +7,7 @@ const package = require('./package.json');
 
 program
   .version(package.version)
+  .description(package.description)
   .option('--rm', 'Remove matching keys')
   .option('-c, --cluster')
   .option('-r, --host [host]', 'host', '127.0.0.1')

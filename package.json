@@ -1,7 +1,7 @@
 {
   "name": "redishashscan",
   "version": "0.1.0",
-  "description": "Scans redis for hashes and identifies keys that match a regex and optionally deletes them.",
+  "description": "Scans redis for hashes and identifies keys that match and optionally deletes them.",
   "private": true,
   "main": "index.js",
   "bin": {
